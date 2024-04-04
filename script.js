@@ -1,3 +1,7 @@
+if (window.innerWidth <= 800 && window.innerHeight <= 600) {
+    alert("Access from mobile devices is not supported.");
+    // Redirect or handle accordingly
+  }
 // Function to scroll to the about section
 function scrollToAbout() {
     const aboutSection = document.getElementById('projects');  
